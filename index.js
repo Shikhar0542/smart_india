@@ -6,7 +6,7 @@ const mongoose=require("mongoose");
 app.use(express.json());
 
 
-const url=""
+const url="mongodb+srv://shivangsinghblw:<nzwqEFPTWcN206zz>@smart.we4lr.mongodb.net/?retryWrites=true&w=majority&appName=smart"
 
 
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
